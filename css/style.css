@@ -1,7 +1,7 @@
 body{
     background-color: #FAFAFA;
     overflow-x: hidden;
-    height: 4000;
+    height: 100vh;
 }
 /* nav */
 .searchbar1{
