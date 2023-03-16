@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Final Project</title>
@@ -43,7 +44,7 @@
     <!-- content 1 -->
     <section class="container mt-5">
       <div class="row tambahancontent1">
-        <div class="card contentcard1">
+        <div class="card contentcard1 d-none d-sm-block">
           <div class="card-body">
             <img class="star1" src="./assets/Star 1.png" alt="star">
             <img class="star1" src="./assets/Star 1.png" alt="star">
@@ -67,16 +68,16 @@
 
    <!-- content 2 -->
    <div class="container mt-5">
-    <div class="m-5 mt-5">
-    <p class="content2text1 text-center">SPECIAL BENEFIT FOR YOU</p>
-    <h1 class="content2text2 text-center">Why Should Choose Us?</h1>
+    <div class="m-5 mt-5 text-center">
+    <p class="content2text1">SPECIAL BENEFIT FOR YOU</p>
+    <h1 class="content2text2">Why Should Choose Us?</h1>
     </div>
     <div class="row">
       <div class="col-12 col-lg-4">
         <div class="card border-0 mobile-content-card" style="width: 18rem;">
         <div class="card-body text-center rounded">
           <img src="./assets/Discount.png" alt="disc">
-          <h5 class="card-title">Extra Discounts</h5>
+          <h5 class="card-title mt-5">Extra Discounts</h5>
           <p class="card-text">Get your special discount by using our reservation</p>
           <button class="text-align-base tombol-content-2 btn btn-primary">View Details</button>
         </div>
@@ -85,7 +86,7 @@
         <div class="card border-0 mobile-content-card" style="width: 18rem;">
         <div class="card-body text-center">
           <img src="./assets/Frame 45.png" alt="" srcset="">
-          <h5 class="card-title">Come and Eat</h5>
+          <h5 class="card-title mt-5">Come and Eat</h5>
           <p class="card-text">Get your own table quickly & without waiting in line</p>
           <button class="text-align-base tombol-content-2 btn btn-primary">View Details</button>
         </div>
@@ -93,19 +94,19 @@
       <div class="col-12 col-lg-4">
         <div class="card border-0 mobile-content-card" style="width: 18rem;">
           <div class="card-body text-center rounded">
-            <img src="./assets/Discount.png" alt="disc">
-            <h5 class="card-title">Extra Discounts</h5>
-            <p class="card-text">Get your special discount by using our reservation</p>
+            <img src="./assets/Frame 60.png" alt="disc">
+            <h5 class="card-title mt-5">No Extra Fee</h5>
+            <p class="card-text">Get tax free if you want to order food and make a reservation</p>
             <button class="text-align-base tombol-content-2 btn btn-primary">View Details</button>
           </div>
         </div></div>
       <div class="row">
         <div class="col-12 col-lg-3 ml-3 "> 
-          <div class="card border-0 mobile-content-card" style="width: 18rem;">
+          <div class="card border-0 mobile-content-card mt-4" style="width: 18rem;">
             <div class="card-body text-center rounded">
-              <img src="./assets/Discount.png" alt="disc">
-              <h5 class="card-title">Extra Discounts</h5>
-              <p class="card-text">Get your special discount by using our reservation</p>
+              <img src="./assets/Group 26.png" alt="disc">
+              <h5 class="card-title mt-5">Guaranteed Cleanliness</h5>
+              <p class="card-text">We ensure the cleanliness of the place as well as the food</p>
               <button class="text-align-base tombol-content-2 btn btn-primary">View Details</button>
             </div>
           </div>
@@ -114,6 +115,45 @@
     </div>
    </div>
    <!-- end content 2 -->
+
+   <!-- contact -->
+   <form action="">
+    <div class="container" id="contact">
+      <div class="row text-center mb-5">
+        <div class="col">
+          <h2>Contact</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-8">
+        <div class="mb-4">
+          <label for="name" class="form-label">Username</label>
+          <input type="email" class="form-control" id="name">
+        </div>
+        <div class="mb-4">
+          <label for="Emailnya" class="form-label">Email</label>
+          <input type="email" class="form-control" id="Emailnya">
+        </div>
+        <div class="mb-4">
+          <label for="pesan" class="form-label">Pesan</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+       <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+    </div>
+  
+    </form>
+    <!-- end contact -->
+
+    <!-- footer -->
+    <footer class="bg-primary text-center pb-5 mt-5">
+      <svg  style="margin-top: -15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,128L48,106.7C96,85,192,43,288,53.3C384,64,480,128,576,138.7C672,149,768,107,864,117.3C960,128,1056,192,1152,192C1248,192,1344,128,1392,96L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+      <p class="text-white">
+        Created by <i class="bi bi-instagram text-danger"></i> <a class="text-white fw-bold" href="https://www.instagram.com/apinsyahriin/">apinsyahriin</a>
+      </p>
+    </footer>
+    <!-- end footer -->
 
    <script src="https://code.jquery.com/jquery-3.6.4.slim.js" integrity="sha256-dWvV84T6BhzO4vG6gWhsWVKVoa4lVmLnpBOZh/CAHU4=" crossorigin="anonymous"></script>
    <script src="./bootstrap/js/bootstrap.min.js"></script>

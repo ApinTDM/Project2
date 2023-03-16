@@ -1,7 +1,7 @@
 body{
     background-color: #FAFAFA;
     overflow-x: hidden;
-    height: 4000px;
+    height: 4000;
 }
 /* nav */
 .searchbar1{
@@ -231,8 +231,8 @@ body{
     position: absolute;
     width: 390px;
     height: 315px;
-    top: 1800px;
-    left: 170px;
+    top: 2200px;
+    left: 70px;
     padding-top: 17px;
     padding-left: 8px;
     
@@ -346,8 +346,6 @@ body{
     /* end content 1 */
 
 .container .row .col-12 .mobile-content-card{
-    margin-left: 120px !important;
-    margin-bottom: 40px;
     border-radius: 20px !important;
 }
 
@@ -427,10 +425,6 @@ body{
         margin-top: 40px;
     }
 
-    .tombol-content-2{
-        background-size: cover;
-        margin-top: 90px;
-    }
 
     .border-0{
         border-radius: 30px;
