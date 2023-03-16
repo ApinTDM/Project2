@@ -62,25 +62,8 @@ body{
     height: 564px;
 }
 
-.imgcontent1{
-    position: absolute;
-    width: 1128px;
-    height: 564px;
-    left: 79px;
-
-    border-radius: 24px;
-}
-
-.imgcontent2{
-    position: absolute;
-    width: 1128px;
-    height: 564px;
-    left: 1248px;
-
-    border-radius: 24px;
 
 
-}
 
 .contentcard1 {
     position: absolute;
@@ -215,7 +198,7 @@ body{
 /* end content 2 */
 
 /* smartphone/tablet */
-@media (max-width: 768px) { 
+@media (max-width: 991px) { 
     /* nav */
     .nav-home-link{
         margin-left: 24px;
