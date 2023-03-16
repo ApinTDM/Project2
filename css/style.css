@@ -30,9 +30,6 @@ body{
 /* end nav */
 
 /* content 1 */
-.container .tambahancontent1{
-    height: 564px;
-}
 
 
 
@@ -338,8 +335,7 @@ body{
 }
 
 .content-2-image-2{
-    margin-top: -600px;
-    margin-left: auto;
+    margin-left: auto !important;
 }
 
 .gambar-content-2{
@@ -420,7 +416,6 @@ body{
 
     /* content 1 */
     .content-2-image-2{
-        margin-top: -550px;
         width: 1128px;
     }
 
