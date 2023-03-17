@@ -410,6 +410,10 @@ body{
         margin-top: 32px;
     }
 
+    .container-fluid .navbar .collapse .menggeser-nav-link-lg{
+        margin-left: 36px !important;
+    }
+
     .btnlogin1{
 
         display: flex;
