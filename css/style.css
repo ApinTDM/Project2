@@ -9,7 +9,6 @@ body{
     flex-direction: row;
     align-items: center;
     text-align: center;
-    margin-left: auto;
     margin-right: auto;
     
 
@@ -19,7 +18,7 @@ body{
     background: #FFFFFF;
     border-radius: 12px;
     border: none;
-    font-size: 12px;
+    font-size: 8px;
     font-family: 'Mediumpoppins';
 }
 
@@ -174,6 +173,10 @@ body{
     }
     .container-fluid .navbar .collapse .icon-home-resto{
         margin-left: 38px !important;
+    }
+
+    .menggeser-home{
+        margin-left: 24px;
     }
 
     .btnlogin1{
