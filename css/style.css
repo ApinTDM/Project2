@@ -8,12 +8,10 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 16px 28px;
-    gap: 10px;
     text-align: center;
     
 
-    width: 235px;
+    width: 215px;
     height: 56px;
 
     background: #FFFFFF;
@@ -336,10 +334,11 @@ body{
 
 .content-2-image-2{
     margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .gambar-content-2{
-    width: 500px;
+    width: 350px;
 }
 
 
@@ -347,6 +346,9 @@ body{
 
 .container .row .col-12 .mobile-content-card{
     border-radius: 20px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 40px;
 }
 
  }
@@ -432,6 +434,10 @@ body{
 
     .container .row .col-12 .mobile-content-card{
         height: 347px !important;
+    }
+
+    .container .row .content-card-lg{
+        margin-top: 40px !important;
     }
     
     /* end content 2 */
